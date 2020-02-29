@@ -1,0 +1,33 @@
+{
+  "name": "clientevent",
+  "description": "Simple Event Emitter Helper Library",
+  "version": "1.0.0",
+  "main": "dist/clientEvent.js",
+  "types": "dist/clientEvent.d.ts",
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/jest": "^25.1.2",
+    "@types/minio": "^7.0.5",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^25.1.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "test": "jest"
+  },
+  "files": [
+    "*.js",
+    "index.d.ts"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "event",
+    "client"
+  ]
+}
