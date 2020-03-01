@@ -1,4 +1,9 @@
-import {ClientEvent, ClientEventTypes} from "../src/clientEvent";
+import {ClientEvent} from "../src/clientEvent";
+
+enum ClientEventTypes {
+  SET_SNACK_BAR_MSG,
+  OTHER,
+}
 
 describe('eventClient', () => {
 
