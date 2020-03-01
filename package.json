@@ -23,7 +23,7 @@
   },
   "files": [
     "*.js",
-    "index.d.ts"
+    "*.d.ts"
   ],
   "license": "MIT",
   "keywords": [
