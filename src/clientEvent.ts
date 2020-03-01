@@ -81,7 +81,7 @@ export const ClientEvent = {
    * @param {string} event
    * @param data
    */
-  emit(event: string | number, data: any) {
+  emit(event: string | number, data?: any) {
     if (!this.events[event]) return;
     this.events[event].forEach(callback => callback.listener(data));
   },

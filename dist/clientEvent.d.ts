@@ -63,7 +63,7 @@ export declare const ClientEvent: {
      * @param {string} event
      * @param data
      */
-    emit(event: string | number, data: any): void;
+    emit(event: string | number, data?: any): void;
     /**
      * Will clear the event list
      */
